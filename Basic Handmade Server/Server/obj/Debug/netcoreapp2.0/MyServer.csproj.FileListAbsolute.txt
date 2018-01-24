@@ -1,0 +1,22 @@
+E:\SoftUni\C# Web\Http\WebServer\Server\obj\Debug\netcoreapp2.0\MyServer.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# Web\Http\WebServer\Server\obj\Debug\netcoreapp2.0\MyServer.csproj.CoreCompileInputs.cache
+E:\SoftUni\C# Web\Http\WebServer\Server\obj\Debug\netcoreapp2.0\MyServer.AssemblyInfoInputs.cache
+E:\SoftUni\C# Web\Http\WebServer\Server\obj\Debug\netcoreapp2.0\MyServer.AssemblyInfo.cs
+E:\SoftUni\C# Web\Http\WebServer\Server\bin\Debug\netcoreapp2.0\MyServer.deps.json
+E:\SoftUni\C# Web\Http\WebServer\Server\bin\Debug\netcoreapp2.0\MyServer.runtimeconfig.json
+E:\SoftUni\C# Web\Http\WebServer\Server\bin\Debug\netcoreapp2.0\MyServer.runtimeconfig.dev.json
+E:\SoftUni\C# Web\Http\WebServer\Server\bin\Debug\netcoreapp2.0\MyServer.dll
+E:\SoftUni\C# Web\Http\WebServer\Server\bin\Debug\netcoreapp2.0\MyServer.pdb
+E:\SoftUni\C# Web\Http\WebServer\Server\obj\Debug\netcoreapp2.0\MyServer.dll
+E:\SoftUni\C# Web\Http\WebServer\Server\obj\Debug\netcoreapp2.0\MyServer.pdb
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\bin\Debug\netcoreapp2.0\MyServer.deps.json
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\bin\Debug\netcoreapp2.0\MyServer.runtimeconfig.json
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\bin\Debug\netcoreapp2.0\MyServer.runtimeconfig.dev.json
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\bin\Debug\netcoreapp2.0\MyServer.dll
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\bin\Debug\netcoreapp2.0\MyServer.pdb
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\obj\Debug\netcoreapp2.0\MyServer.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\obj\Debug\netcoreapp2.0\MyServer.csproj.CoreCompileInputs.cache
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\obj\Debug\netcoreapp2.0\MyServer.AssemblyInfoInputs.cache
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\obj\Debug\netcoreapp2.0\MyServer.AssemblyInfo.cs
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\obj\Debug\netcoreapp2.0\MyServer.dll
+E:\SoftUni\C# Web\C# Web Projects - SoftUni\Basic Handmade Server\Server\obj\Debug\netcoreapp2.0\MyServer.pdb
