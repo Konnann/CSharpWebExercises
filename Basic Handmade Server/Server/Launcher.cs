@@ -3,7 +3,7 @@
     using Server;
     using Server.Routing;
     using Server.Contracts;
-    using ByTheCakeApplication;
+    using CalculatorApplication;
 
     public class Launcher : IRunnable
     {
@@ -16,7 +16,12 @@
 
         public void Run()
         {
-            var app = new MainApplication();
+            //launch calculator App
+            var app = new CalculatorApplication.MainApplication();
+
+            //Launch Cakes App
+            //var app1 = new ByTheCakeApplication.MainApplication();
+
             var routeConfig = new AppRouteConfig();
             app.Configure(routeConfig);
 
