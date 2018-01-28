@@ -16,8 +16,12 @@
 
         public void Run()
         {
+            //launch SendEmailApplicationApp
+
+            var app = new SendEmailApplication.MainApplication();
+
             //launch calculator App
-            var app = new CalculatorApplication.MainApplication();
+            //var app = new CalculatorApplication.MainApplication();
 
             //Launch Cakes App
             //var app1 = new ByTheCakeApplication.MainApplication();
