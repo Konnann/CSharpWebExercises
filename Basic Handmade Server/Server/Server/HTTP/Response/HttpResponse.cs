@@ -12,8 +12,6 @@
 
         protected HttpStatusCode StatusCode { get; set; }
 
-        protected HttpHeaderCollection HeaderCollection { get; set; } = new HttpHeaderCollection();
-
         protected HttpResponse() { }
 
         protected HttpResponse(string redirectUrl)
@@ -30,18 +28,22 @@
             this.StatusCode = responseCode;
         }
 
+        public IHttpHeaderCollection Headers { get; set; } = new HttpHeaderCollection();
+        
+        public IHttpCookieCollection Cookies { get; set; } = new HttpCookieCollection();
+
         public void AddHeader(string key, string value)
         {
             var header = new HttpHeader(key, value);
-            this.HeaderCollection.Add(header);
+            this.Headers.Add(header);
         }
 
         public override string ToString()
         {
             StringBuilder response = new StringBuilder();
             response.AppendLine($"HTTP/1.1 { (int)this.StatusCode} {this.StatusCode}");
-            response.AppendLine(this.HeaderCollection.ToString());
-            response.AppendLine();
+            response.AppendLine(this.Headers.ToString());
+            
 
             //if ((int)this.StatusCode < 300 || (int)this.StatusCode > 500)
             //{

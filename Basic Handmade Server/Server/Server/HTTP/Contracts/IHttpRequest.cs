@@ -5,19 +5,21 @@
 
     public interface IHttpRequest
     {
-        Dictionary<string, string> FormData { get; }
+        IDictionary<string, string> FormData { get; }
 
-        HttpHeaderCollection HeaderCollection { get; }
+        IHttpHeaderCollection Headers { get; }
+
+        IHttpCookieCollection Cookies { get; }
 
         string Path { get; }
 
-        Dictionary<string, string> QueryParameters { get; }
+        IDictionary<string, string> QueryParameters { get; }
 
         HttpRequestMethod RequestMethod { get; }
 
         string Url { get; }
 
-        Dictionary<string, string> UrlParameters { get; }
+        IDictionary<string, string> UrlParameters { get; }
 
         void AddUrlParameter(string key, string value);
     }

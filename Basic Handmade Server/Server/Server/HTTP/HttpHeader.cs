@@ -4,6 +4,11 @@
 
     public class HttpHeader
     {
+        public const string ContentType = "Content-Type";
+        public const string Host = "Host";
+        public const string Cookie = "Cookie";
+        public const string SetCookie = "Set-Cookie";
+
         public HttpHeader(string key, string value)
         {
             CoreValidator.ThrowIfNull(key, nameof(key));

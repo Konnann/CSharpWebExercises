@@ -18,13 +18,13 @@
         {
             //launch SendEmailApplicationApp
 
-            var app = new SendEmailApplication.MainApplication();
+            //var app = new SendEmailApplication.MainApplication();
 
             //launch calculator App
             //var app = new CalculatorApplication.MainApplication();
 
             //Launch Cakes App
-            //var app1 = new ByTheCakeApplication.MainApplication();
+            var app = new ByTheCakeApplication.MainApplication();
 
             var routeConfig = new AppRouteConfig();
             app.Configure(routeConfig);

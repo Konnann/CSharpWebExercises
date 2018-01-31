@@ -4,6 +4,7 @@
     using Common;
     using Contracts;
     using HTTP.Contracts;
+    using MyServer.Server.HTTP;
 
     public abstract class RequestHandler : IRequestHandler
     {
@@ -20,7 +21,15 @@
         {
             var response = this.handlingFunc(httpContext.Request);
 
-            response.AddHeader("Content-Type", "text/html");
+            if (!response.Headers.ContainsKey(HttpHeader.ContentType))
+            {
+                response.AddHeader(HttpHeader.ContentType, "text/html");
+            }
+
+            foreach (var cookie in response.Cookies)
+            {
+                response.Headers.Add(new HttpHeader(HttpHeader.SetCookie, cookie.ToString()));
+            }
 
             return response;
         }

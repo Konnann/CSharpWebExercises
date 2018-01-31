@@ -6,6 +6,7 @@
     using Contracts;
     using Exceptions;
     using System.Net;
+    using System.Linq;
     using System.Collections.Generic;
 
     public class HttpRequest : IHttpRequest
@@ -14,27 +15,30 @@
 
         public HttpRequest(string requestString)
         {
-            this.HeaderCollection = new HttpHeaderCollection();
+            this.Headers = new HttpHeaderCollection();
             this.UrlParameters = new Dictionary<string, string>();
             this.QueryParameters = new Dictionary<string, string>();
             this.FormData = new Dictionary<string, string>();
+            this.Cookies = new HttpCookieCollection();
 
             this.ParseRequest(requestString);
         }
 
-        public Dictionary<string, string> FormData { get; private set; }
+        public IDictionary<string, string> FormData { get; private set; }
 
-        public HttpHeaderCollection HeaderCollection { get; private set; }
+        public IHttpHeaderCollection Headers { get; private set; }
+
+        public IHttpCookieCollection Cookies { get; private set; }
 
         public string Path { get; private set; }
 
-        public Dictionary<string, string> QueryParameters { get; private set; }
+        public IDictionary<string, string> QueryParameters { get; private set; }
 
         public HttpRequestMethod RequestMethod { get; private set; }
 
         public string Url { get; private set; }
 
-        public Dictionary<string, string> UrlParameters { get; private set; }
+        public IDictionary<string, string> UrlParameters { get; private set; }
 
         public void AddUrlParameter(string key, string value)
         {
@@ -75,6 +79,38 @@
                 this.ParseQuery(requestLines[requestLines.Length - 1], this.FormData);
             }
         }
+        
+        private void ParseCookies()
+        {
+            if (this.Headers.ContainsKey(HttpHeader.Cookie))
+            {
+                var allCookies = this.Headers.GetHeader(HttpHeader.Cookie);
+
+                foreach (var cookie in allCookies)
+                {
+                    var cookieParts = cookie
+                        .Value
+                        .Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries)
+                        .FirstOrDefault();
+
+                    if(cookie == null || !cookieParts.Contains('='))
+                    {
+                        continue;
+                    }
+
+                    var cookieKeyValuePair = cookieParts.Split(new[] { '=' }, StringSplitOptions.RemoveEmptyEntries);
+
+                    if(cookieKeyValuePair.Length == 2)
+                    {
+                        var key = cookieKeyValuePair[0];
+                        var value = cookieKeyValuePair[1];
+
+                        this.Cookies.Add(new HttpCookie(key, value, false));
+                    }
+
+                }
+            }
+        }
 
         private void ParseParameters()
         {
@@ -87,7 +123,7 @@
             this.ParseQuery(query, this.QueryParameters);
         }
 
-        private void ParseQuery(string query, Dictionary<string, string> dict)
+        private void ParseQuery(string query, IDictionary<string, string> dict)
         {
             if (!query.Contains("="))
             {
@@ -122,11 +158,11 @@
                 if (headerArgs.Length == 2)
                 {
                     var header = new HttpHeader(headerArgs[0], headerArgs[1]);
-                    this.HeaderCollection.Add(header);
+                    this.Headers.Add(header);
                 }
             }
 
-            if(!HeaderCollection.ContainsKey("Host"))
+            if(!Headers.ContainsKey("Host"))
             {
                 throw new Exception();
             }
