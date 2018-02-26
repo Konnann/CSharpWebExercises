@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cards</title>
+    <style>
+        div.card {
+            display: inline-block; padding: 10px; margin: 10px;
+            width: 50px; height: 80px; background: #EEE;
+            border: 3px solid #DDD; border-radius: 5px;
+            font-size: 18pt; text-align: center; line-height: 75px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div id="main"></div>
+<script>
+    function cardDeckBuilder(selector) {
+        $(selector).click(reverseCards);
+
+        function reverseCards(){
+            let reversed = [];
+            for(let c of $('.card')){
+                reversed.push($(c).text());
+                $(c).remove();
+            }
+            reversed = reversed.reverse();
+
+            for(let c of reversed){
+                $(selector).append(`<div class="card">${c}</div>`)
+            }
+            console.log(reversed.join(', '));
+        }
+        function validateCard(face, suit){
+            let validFace = false;
+            let validSuit = false;
+            switch(face){
+                case '2':
+                case '3':
+                case '4':
+                case '5':
+                case '6':
+                case '7':
+                case '8':
+                case '9':
+                case '10':
+                case 'J':
+                case 'Q':
+                case 'K':
+                case 'A':
+                    validFace = true;
+                    break;
+            }
+            switch(suit){
+                case 'C':
+                case 'D':
+                case 'H':
+                case 'S':
+                    validSuit = true;
+                    break;
+            }
+            return validFace && validSuit;
+        }
+        return{
+            addCard(face, suit){
+
+                if(validateCard(face, suit)){
+                    let symbol = '';
+                    switch(suit){
+                        case 'C':
+                            symbol = '\u2663';
+                            break;
+                        case 'D':
+                            symbol = '\u2666';
+                            break;
+                        case 'H':
+                            symbol = '\u2665';
+                            break;
+                        case 'S':
+                            symbol = '\u2660';
+                            break;
+                    }
+
+                    $(selector).append(`<div class="card">${face} ${symbol}</div>`);
+                }
+            }
+        }
+    }
+</script>
+<script>
+    $(function() {
+        let builder = cardDeckBuilder("#main");
+        builder.addCard("10", "D");
+        builder.addCard("K", "S");
+        builder.addCard("Q", "H");
+        builder.addCard("4", "C");
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+E:\SoftUni\C#OOP Advanced\MyExam7September\Structure_Skeleton\Structure_Skeleton\bin\Debug\Minedraft.exe.config
+E:\SoftUni\C#OOP Advanced\MyExam7September\Structure_Skeleton\Structure_Skeleton\obj\Debug\Minedraft.csprojResolveAssemblyReference.cache
+E:\SoftUni\C#OOP Advanced\MyExam7September\Structure_Skeleton\Structure_Skeleton\bin\Debug\Minedraft.exe
+E:\SoftUni\C#OOP Advanced\MyExam7September\Structure_Skeleton\Structure_Skeleton\bin\Debug\Minedraft.pdb
+E:\SoftUni\C#OOP Advanced\MyExam7September\Structure_Skeleton\Structure_Skeleton\obj\Debug\Minedraft.exe
+E:\SoftUni\C#OOP Advanced\MyExam7September\Structure_Skeleton\Structure_Skeleton\obj\Debug\Minedraft.pdb
