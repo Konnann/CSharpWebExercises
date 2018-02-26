@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetHunters.Models", "PlanetHunters.Models\PlanetHunters.Models.csproj", "{FAE1E056-62CC-4D64-974E-9D056EFB41AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetHunters.Data", "PlanetHunters.Data\PlanetHunters.Data.csproj", "{7511202C-A1FD-46C9-B5A3-6B8AA52837A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetHunters.Client", "PlanetHunters.Client\PlanetHunters.Client.csproj", "{68C30E88-24E7-450C-B595-4C13A5E69CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetHunters.Import", "PlanetHunters.Import\PlanetHunters.Import.csproj", "{FCEB7BF2-0E42-4D3E-9C30-96215B0F4B85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAE1E056-62CC-4D64-974E-9D056EFB41AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE1E056-62CC-4D64-974E-9D056EFB41AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE1E056-62CC-4D64-974E-9D056EFB41AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE1E056-62CC-4D64-974E-9D056EFB41AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7511202C-A1FD-46C9-B5A3-6B8AA52837A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7511202C-A1FD-46C9-B5A3-6B8AA52837A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7511202C-A1FD-46C9-B5A3-6B8AA52837A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7511202C-A1FD-46C9-B5A3-6B8AA52837A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C30E88-24E7-450C-B595-4C13A5E69CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C30E88-24E7-450C-B595-4C13A5E69CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C30E88-24E7-450C-B595-4C13A5E69CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C30E88-24E7-450C-B595-4C13A5E69CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEB7BF2-0E42-4D3E-9C30-96215B0F4B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEB7BF2-0E42-4D3E-9C30-96215B0F4B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEB7BF2-0E42-4D3E-9C30-96215B0F4B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEB7BF2-0E42-4D3E-9C30-96215B0F4B85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

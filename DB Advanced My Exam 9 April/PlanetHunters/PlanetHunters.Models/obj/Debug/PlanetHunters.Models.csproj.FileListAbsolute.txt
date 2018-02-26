@@ -1,0 +1,6 @@
+E:\SoftUni\DB ADVANCED\MyExam 9 April\PlanetHunters\PlanetHunters.Models\bin\Debug\PlanetHunters.Models.dll
+E:\SoftUni\DB ADVANCED\MyExam 9 April\PlanetHunters\PlanetHunters.Models\bin\Debug\PlanetHunters.Models.pdb
+E:\SoftUni\DB ADVANCED\MyExam 9 April\PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.csprojResolveAssemblyReference.cache
+E:\SoftUni\DB ADVANCED\MyExam 9 April\PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.dll
+E:\SoftUni\DB ADVANCED\MyExam 9 April\PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.pdb
+E:\SoftUni\DB ADVANCED\MyExam 9 April\PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.csproj.CoreCompileInputs.cache

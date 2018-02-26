@@ -1,0 +1,14 @@
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\ExamPrep.Export.exe.config
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\ExamPrep.Export.exe
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\ExamPrep.Export.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\ExamPrep.Data.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\ExamPrep.Models.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\Newtonsoft.Json.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\EntityFramework.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\ExamPrep.Data.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\ExamPrep.Models.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\Newtonsoft.Json.xml
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\bin\Debug\EntityFramework.xml
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\obj\Debug\ExamPrep.Export.csprojResolveAssemblyReference.cache
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\obj\Debug\ExamPrep.Export.exe
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Export\obj\Debug\ExamPrep.Export.pdb

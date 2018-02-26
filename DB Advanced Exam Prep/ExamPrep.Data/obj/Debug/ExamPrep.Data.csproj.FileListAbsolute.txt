@@ -1,0 +1,12 @@
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\ExamPrep.Data.dll.config
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\ExamPrep.Data.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\ExamPrep.Data.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\EntityFramework.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\ExamPrep.Models.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\ExamPrep.Models.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\EntityFramework.xml
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\obj\Debug\ExamPrep.Data.csprojResolveAssemblyReference.cache
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\obj\Debug\ExamPrep.Data.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Data\obj\Debug\ExamPrep.Data.pdb

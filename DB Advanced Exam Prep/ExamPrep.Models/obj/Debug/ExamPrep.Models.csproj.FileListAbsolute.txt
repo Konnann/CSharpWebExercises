@@ -1,0 +1,5 @@
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Models\bin\Debug\ExamPrep.Models.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Models\bin\Debug\ExamPrep.Models.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Models\obj\Debug\ExamPrep.Models.csprojResolveAssemblyReference.cache
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Models\obj\Debug\ExamPrep.Models.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Models\obj\Debug\ExamPrep.Models.pdb

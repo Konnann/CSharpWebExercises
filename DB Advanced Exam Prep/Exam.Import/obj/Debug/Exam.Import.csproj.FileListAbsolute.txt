@@ -1,0 +1,14 @@
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\Exam.Import.exe.config
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\Exam.Import.exe
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\Exam.Import.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\ExamPrep.Data.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\ExamPrep.Models.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\Newtonsoft.Json.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\EntityFramework.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\ExamPrep.Data.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\ExamPrep.Models.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\Newtonsoft.Json.xml
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\bin\Debug\EntityFramework.xml
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\obj\Debug\Exam.Import.csprojResolveAssemblyReference.cache
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\obj\Debug\Exam.Import.exe
+E:\SoftUni\DB ADVANCED\ExamPrep\Exam.Import\obj\Debug\Exam.Import.pdb

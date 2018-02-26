@@ -1,0 +1,12 @@
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\ExamPrep.Client.exe.config
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\ExamPrep.Client.exe
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\ExamPrep.Client.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\ExamPrep.Data.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\ExamPrep.Models.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\EntityFramework.dll
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\ExamPrep.Data.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\ExamPrep.Models.pdb
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\bin\Debug\EntityFramework.xml
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\obj\Debug\ExamPrep.Client.csprojResolveAssemblyReference.cache
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\obj\Debug\ExamPrep.Client.exe
+E:\SoftUni\DB ADVANCED\ExamPrep\ExamPrep.Client\obj\Debug\ExamPrep.Client.pdb
